@@ -1,0 +1,49 @@
+.header {
+    /* margin: 0 2.5rem;
+    padding: .5rem 0; */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.title{ 
+    color: #F0F2F4;
+    margin: 0 24px;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+h2.title {
+    text-decoration: none;
+}
+
+.navbar-list {
+    margin-left: 120px;
+}
+
+a > span {
+    margin: 0 25px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #D8E0E8;
+}
+
+a > span:hover {
+    color: black;
+}
+
+.header_icon {
+    width: 120px;
+    cursor: pointer;
+}
+
+.user_avatar {
+    font-size: 2rem;
+}
